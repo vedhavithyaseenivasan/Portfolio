@@ -28,7 +28,7 @@ Welcome to my **Portfolio Website** repository! This project showcases my skills
 1. **Clone the repo**
    
    ```bash
-   git clone https://github.com/vedhavithyaseenivasan/portfolio.git
+   git clone https://github.com/vedhavithyaseenivasan/Portfolio.git
    ```
 
 2. Open index.html in your browser.
