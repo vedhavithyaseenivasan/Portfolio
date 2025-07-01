@@ -1,0 +1,243 @@
+/* Styles for devices with a max width of 1024px (tablets and small screens) */
+@media screen and (max-width: 1024px) {
+    body {
+        background-color: #121212;
+        color: white;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1rem;
+        background-color: #000;
+    }
+
+    .logo, .menu {
+        padding: 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .menu .menu-list {
+        display: none;
+        flex-direction: column;
+        background-color: #000;
+        width: 100%;
+    }
+
+    .menu.active .menu-list {
+        display: flex;
+    }
+
+    .menu-list .menu-list-items {
+        padding: 1rem;
+        text-align: center;
+        color: white;
+    }
+
+    .hero {
+        height: auto;
+        margin: 2rem 0;
+        flex-direction: column;
+        text-align: center;
+        padding: 1rem;
+        background-color: #1e1e1e;
+    }
+
+    .hero .intro,
+    .hero-image {
+        margin: 1rem 0;
+    }
+
+    .about {
+        flex-direction: column;
+        text-align: center;
+        background-color: #1e1e1e;
+        padding: 2rem 1rem;
+        color: white;
+    }
+
+    .about .about-text,
+    .about .about-image img {
+        width: 90%;
+        padding: 1rem 0;
+    }
+
+    .portfolio {
+        padding: 1rem;
+        background-color: #121212;
+    }
+
+    .portfolio .my-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .portfolio .my-col {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    .portfolio.zoomed {
+        padding: 2rem;
+        transform: scale(1.05);
+        transition: transform 0.5s ease-in-out;
+        background-color: #121212;
+    }
+
+    .services {
+        flex-direction: column;
+        padding: 2rem 1rem;
+        background-color: #1e1e1e;
+        color: white;
+    }
+
+    .my-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .my-row .my-col {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    .achieve {
+        background-color: #1e1e1e;
+        color: white;
+    }
+
+   @media screen and (max-width: 768px) {
+    .certifications-section {
+    grid-template-columns: 1fr;
+  }
+    .contact-details {
+        padding: 1.5rem;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .contact-heading h1 {
+        font-size: 2rem;
+    }
+
+    .contact-details h1.greet-heading {
+        font-size: 1.5rem;
+    }
+
+    .contact-text, .details p {
+        font-size: 0.95rem;
+    }
+}
+
+
+    .footer {
+        background-color: #000;
+        color: white;
+    }
+
+    .footer-list-items {
+        background-color: #fff;
+    }
+
+    .footer-links {
+        color: #000;
+    }
+}
+
+/* Styles for devices with a max width of 768px (mobile screens) */
+@media screen and (max-width: 768px) {
+    body {
+        background-color: #121212;
+        color: white;
+    }
+
+    .navbar {
+        padding: 0.5rem;
+        background-color: #000;
+    }
+
+    .menu-list .menu-list-items {
+        padding: 1rem;
+        color: white;
+    }
+
+    .hero {
+        flex-direction: column;
+        margin: 2rem 0;
+        text-align: center;
+        background-color: #1e1e1e;
+    }
+
+    .about {
+        flex-direction: column;
+        text-align: center;
+        padding: 1rem;
+        background-color: #1e1e1e;
+        color: white;
+    }
+
+    .about .about-text,
+    .about .about-image img {
+        width: 100%;
+        padding: 1rem 0;
+    }
+
+    .portfolio {
+        background-color: #121212;
+        color: white;
+    }
+
+    .portfolio .port-card {
+        margin: 1rem 0;
+    }
+
+    .services {
+        flex-direction: column;
+        align-items: center;
+        background-color: #1e1e1e;
+        color: white;
+    }
+
+    .services .my-card {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    .portfolio.zoomed {
+        transform: scale(1.02);
+        transition: transform 0.4s ease-in-out;
+        background-color: #121212;
+    }
+
+    .achieve {
+        background-color: #1e1e1e;
+        color: white;
+    }
+
+    .contact-content {
+        flex-direction: column;
+    }
+
+    .contact-form-container,
+    .contact-details {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .footer {
+        background-color: #000;
+        color: white;
+    }
+
+    .footer-list-items {
+        background-color: #fff;
+    }
+
+    .footer-links {
+        color: #000;
+    }
+}

@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" 
+          href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+          integrity=
+"sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+             crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+
+<body>
+
+    <!-- Navbar header section -->
+<header class="header">
+  <nav class="navbar">
+    <div class="hamburger" id="hamburger">
+      <i class="fas fa-bars hamburger-icon"></i>
+      <i class="fas fa-times cross-icon"></i>
+      <i class="fas fa-bars hamburger-icon show"></i>
+      <i class="fas fa-times cross-icon"></i>
+    </div>
+
+    <div class="menu">
+      <ul class="menu-list">
+        <li class="menu-list-items"><a class="links" href="#home">Home</a></li>
+        <li class="menu-list-items"><a class="links" href="#about">About</a></li>
+        <li class="menu-list-items"><a class="links" href="#education">Education</a></li>
+        <li class="menu-list-items"><a class="links" href="#portfolio">Skills</a></li>
+        <li class="menu-list-items"><a class="links" href="#services">Projects</a></li>
+        <li class="menu-list-items"><a class="links" href="#papers">Papers</a></li>
+        <li class="menu-list-items"><a class="links" href="#certifications">Certifications</a></li>
+        <li class="menu-list-items"><a class="links" href="#internships">Internships</a></li>
+        <li class="menu-list-items"><a class="links" href="#achieve">Achievements</a></li>
+        <li class="menu-list-items"><a class="links" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+    <!-- Main hero banner -->
+    <section id="home" class="hero">
+        <div class="intro">
+          
+            <div class="headings">
+                <h3 class="greet-heading">Hello,It's Me</h3>
+                <h1 class="my-heading">Vedhavithya S</h1>
+                <h4 class="sub-heading">
+                    Final Year Student On Information Technology
+                </h4>
+            </div>
+            <div class="intro-buttons">
+                <a href="https://drive.google.com/file/d/1r8JdgOWufzcKlOSACuVw6vAoQ9gmiZDT/view?usp=drive_link" download class="btn ghost-btn">Get Resume</a>
+            </div>
+        </div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
+        <div class="hero-image">
+          <img src="vv.jpg">
+      </div>
+    </section>
+
+    
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-text">
+            <h1 class="my-heading" style="font-family: algerian;color: #00bcd4;">About Me</h1><br>
+            <p class="lead-para" >
+             I’m VedhaVithya S, a passionate and goal-oriented final year student pursuing <span class="highlight">Information Technology at Kongu Engineering College</span>. With a strong foundation in Java programming and a growing expertise in full-stack web development, I strive to craft meaningful digital experiences that solve real-world problems.
+Over the past few years, I’ve actively immersed myself in learning both frontend and backend technologies including <span class="highlight">React, Node.js, MongoDB, and Angular</span>. I have completed internships as a <span class="highlight">Java Developer</span> at InternPE and a <span class="highlight">Web Developer</span> at CodSoft, where I contribute to live projects and sharpen my practical skills.
+Beyond academics, I’ve showcased my innovative thinking through paper presentations at prestigious institutions like Madras Institute of Technology and Bannari Amman Institute of Technology. I’m also certified in platforms such as <span class="highlight">AWS Cloud Practitioner</span> and Infosys Springboard, continuously exploring new technologies and best practices.
+What drives me is a genuine curiosity to learn, the excitement of building something from scratch, and the desire to make an impact through technology. I aspire to become a versatile full-stack developer, blending creativity with technical skill to develop solutions that are efficient, scalable, and user-centric.
+Let’s connect, collaborate, and create!</p>
+<p class="sub-quote">“Innovating through code, creating with purpose.”</p>
+            <p >
+              My goal is to leverage my technical expertise and creative thinking to become a full-stack developer. I'm also keen on exploring opportunities and contributing to innovative projects that make a difference.
+              I believe that continuous learning is key to success in the tech industry.
+            </p>
+        </div>
+        <div class="about-image">
+            <img src="me.jpg" height="90px" width="40px">
+        </div>
+    </section>
+
+
+
+
+<!-- Education Section -->
+<section class="education" id="education">
+    <div class="education-heading text-center">
+        <h1 class="my-heading"><span class="heading-span blue-text"style="font-family: algerian;color: #00bcd4;">Education</span></h1>
+    </div>
+    <div class="education-cards-container">
+        <!-- B.Tech Card -->
+        <div class="education-card">
+            <img src="college.jpg" alt="College" class="edu-img">
+            <h2>B.Tech IT<br>(Honors in Data Science)</h2>
+            <p class="edu-inst">Kongu Engineering College, Erode</p>
+            <p>Graduation Year: 2026</p>
+            <p>CGPA: 9.19 (Till 5th Semester)</p>
+        </div>
+
+        <!-- HSC Card -->
+        <div class="education-card">
+            <img src="school.jpg" alt="School" class="edu-img">
+            <h2>HSC - 12th Standard</h2>
+            <p class="edu-inst">Sivanandha Vidyalayam Matric Higher Secondary School, Virudhunagar</p>
+            <p>Year: 2022</p>
+            <p>Percentage: 93.66%</p>
+        </div>
+
+        <!-- SSLC Card -->
+        <div class="education-card">
+            <img src="school.jpg" alt="SSLC" class="edu-img">
+            <h2>SSLC - 10th Standard</h2>
+            <p class="edu-inst">Sivanandha Vidyalayam Matric Higher Secondary School, Virudhunagar</p>
+            <p>Year: 2020</p>
+            <p>Percentage: 93%</p>
+        </div>
+    </div>
+</section>
+
+
+<!-- Skills section-->
+<section class="portfolio" id="portfolio">
+  <div class="portfolio-heading">
+    <h1 style="font-family: Algerian;">SKILLS</h1>
+  </div>
+
+  <!-- Technical Skills -->
+  <h2 class="skills-subheading" style="font-family: algerian;color: #00bcd4;">Technical Skills</h2>
+  <div class="my-row">
+    <div class="my-col"><div class="port-card">C, C++</div></div>
+    <div class="my-col"><div class="port-card">Java</div></div>
+    <div class="my-col"><div class="port-card">Python</div></div>
+    <div class="my-col"><div class="port-card">HTML, CSS</div></div>
+    <div class="my-col"><div class="port-card">JavaScript</div></div>
+    <div class="my-col"><div class="port-card">ReactJS</div></div>
+    <div class="my-col"><div class="port-card">Node.js</div></div>
+    <div class="my-col"><div class="port-card">MongoDB</div></div>
+     <div class="my-col"><div class="port-card">MySQL</div></div>
+  </div>
+
+  <!-- Soft Skills -->
+  <h2 class="skills-subheading" style="font-family: algerian;color: #00bcd4;">Soft Skills</h2>
+  <div class="my-row">
+    <div class="my-col"><div class="port-card">Communication</div></div>
+    <div class="my-col"><div class="port-card">Teamwork</div></div>
+    <div class="my-col"><div class="port-card">Problem-Solving</div></div>
+    <div class="my-col"><div class="port-card">Time Management</div></div>
+    <div class="my-col"><div class="port-card">Adaptability</div></div>
+    <div class="my-col"><div class="port-card">Creativity</div></div>
+    <div class="my-col"><div class="port-card">Leadership</div></div>
+  </div>
+</section>
+
+
+
+
+    <!-- Project Section -->
+    <section class="services" id="services">
+        <div class="services-heading">
+            <h1 class="my-heading text-center" style="font-family: algerian;color: #00bcd4;">My Projects</h1>
+        </div>
+        <div class="services-content">
+            <div class="my-row">
+                <div class="my-col">
+  <div class="my-card">
+    <div class="icon">
+      <img src="rf.png" alt="Recipe Finder Logo">
+    </div>
+    <h3 class="greet-heading blue-text" style="font-family:'Times New Roman', Times;">
+      <b>Recipe Finder</b>
+    </h3>
+    <p class="small-para">
+      <b style="color: #00bcd4;">Description:</b><br>
+      Recipe Finder is a full-stack MERN project that helps users search for recipes by name and view cooking instructions, ingredients, and nutritional details. The application features a responsive design and allows admin-level control for adding new recipes.
+      <br><br>
+      <b style="color: #00bcd4;">Technologies Used:</b><br>
+      > React.js for Frontend<br>
+      > Node.js & Express.js for Backend<br>
+      > MongoDB for Database<br>
+      > CSS & Tailwind for Styling<br><br>
+      <b style="color: #00bcd4;">GitHub:</b><br>
+      <a href="https://github.com/vedhavithyaseenivasan/Recipe_Finder.git" target="_blank" style="color: #45fa51;">Click Here to Visit</a>
+    </p>
+  </div>
+</div>
+<div class="my-col">
+  <div class="my-card">
+    <div class="icon">
+      <img src="re.jpg" alt="ResortEase Logo">
+    </div>
+    <h3 class="greet-heading blue-text" style="font-family:'Times New Roman', Times;">
+      <b>ResortEase – Online Booking System</b>
+    </h3>
+    <p class="small-para">
+      <b style="color: #00bcd4;">Description:</b><br>
+      ResortEase is a full-featured MERN stack project designed for a resort's online room booking and management system. It includes secure user and admin login, dynamic room listing, booking form with coupon-based discounts, QR code-based UPI payment, and an admin dashboard for managing bookings and availability.
+      We developed ResortEase for Royal Castle Farm Stay Resort, located in Odathurai, Perundurai. This project was created as part of a consultancy effort to digitalize the resort's operations. The system provides seamless user and admin experiences, from room browsing to QR code-based UPI payments. We are grateful to Ms. Parameshwari, CEO of the Resort, who placed her trust in us and gave us this opportunity to transform their booking process through technology.
+      <br><br>
+      <b style="color: #00bcd4;">Technologies Used:</b><br>
+      > React.js for Frontend<br>
+      > Node.js & Express.js for Backend<br>
+      > MongoDB for Database<br>
+      > Tailwind CSS for Styling<br>
+      > Nodemailer for Password Reset<br>
+      > QR Code Generator for UPI Payments<br><br>
+      <b style="color: #00bcd4;">GitHub:</b><br>
+      <a href="https://github.com/vedhavithyaseenivasan/ResortEase.git" target="_blank" style="color: #45fa51;">Click Here to Visit</a>
+    </p>
+  </div>
+</div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <img src="p1.webp">
+                        </div>
+                        <h3 class="greet-heading blue-text"style="font-family:'Times New Roman', Times;"><b>Blood Donation System</b></h3>
+                        <p class="small-para">
+                            <b style="color: #00bcd4;">Description:</b><br>
+This project, developed during my 1st year of IT, is a Blood Donation System designed to streamline the process of blood donations. It allows users to register as donors, search for available donors, and manage donation records efficiently.
+ The system aims to connect donors and recipients in a user-friendly way.
+ <br><br>
+ <b style="color: #00bcd4;"> Technologies Used:</b><br>Java AWT (Abstract Window Toolkit)<br><br>
+ <b style="color: #00bcd4;"> GitHub:</b><br><a href="https://github.com/vedhavithyaseenivasan/Java_AWT_Project.git" style="color: #45fa51;">Click Here to visit</a>
+
+
+                        </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <img src="p2.jpg">
+                        </div>
+                        <h3 class="greet-heading blue-text" style="font-family:'Times New Roman', Times;">
+                             <b> Blog Website</b>
+                          </h3>
+                        <p class="small-para">
+                            <b style="color: #00bcd4;">Description:</b><br>
+                            This project, developed during my 2nd year of Information Technology as part of a Web Technology course, is a fully functional blog website. 
+                            The platform allows users to create, edit, and delete blog posts.
+ <br><br>
+ <b style="color: #00bcd4;"> Technologies Used:</b><br>> HTML,CSS,JavaScript for front-end<br>
+ > Node.js for server-side logic<br>
+ > MongoDB for database management<br><br>
+ <b style="color: #00bcd4;"> GitHub:</b><br><a href="https://github.com/vedhavithyaseenivasan/Blog_Platform.git" style="color: #45fa51;">Click Here to visit</a>
+                        </p>
+                       
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <img src="p3.webp">
+                        </div>
+                        <h3 class="greet-heading blue-text"style="font-family:'Times New Roman', Times;"><b>Quotes Generator</b></h3>
+                        <p class="small-para">
+                            <b style="color: #00bcd4;">Description:</b><br>The Quotes Generator is a mobile application developed using Flutter that allows users to generate and share inspirational quotes. With a simple and intuitive design, users can browse through a wide array of quotes, mark their favorites, and share them.
+
+ <br><br>
+ <b style="color: #00bcd4;"> Technologies Used:</b><br>> Flutter for cross-platform mobile development <br>
+ > Dart<br><br>
+ <b style="color: #00bcd4;"> GitHub:</b><br><a href="https://github.com/vedhavithyaseenivasan/Flutter_Project.git" style="color: #45fa51;">Click Here to visit</a>
+                       
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="my-row">
+                <div class="my-col">
+                
+                    <div class="my-card">
+                        <div class="icon">
+                            <img src="p4.png">
+                        </div>
+                        <h3 class="greet-heading blue-text" style="font-family:'Times New Roman', Times;"><b>
+                              Car Management System</b>
+                          </h3>
+                        <p class="small-para">
+                            <b style="color: #00bcd4;">Description:</b><br>The Car Management System is a database management project designed to efficiently manage various aspects of car dealerships, including inventory, sales, and customer information.
+                            This project was developed as part of my Database Management Systems (DBMS) course.
+ <br><br>
+ <b style="color: #00bcd4;"> Technologies Used:</b><br>> SQL for database creation and queries<br>> Java,Node.js for front-end interaction with the database <br>> MySQL for Database management<br>     
+ <br><b style="color: #00bcd4;">GitHub:</b><br>
+      <a href="https://github.com/vedhavithyaseenivasan/CAR-MANAGEMENT-SYSTEM.git" target="_blank" style="color: #45fa51;">Click Here to Visit</a>
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+   
+
+
+    <!-- Papers Section -->
+<section class="papers-section" id="papers">
+  <h2 class="section-title">MY PAPERS</h2>
+  <p class="paper-note">Here are some of the innovative papers which I've presented in reputed technical symposiums.</p>
+
+  <div class="paper-container">
+    <!-- Paper 1 -->
+    <div class="paper-card">
+      <h3 class="paper-title">Screenless Display</h3>
+      <p class="paper-event">Presented at Bannari Amman Institute of Technology, 2024</p>
+      <p class="paper-desc">
+        This paper explores the concept of projecting digital content directly onto the human retina, eliminating the need for physical screens. It focuses on real-world applications in the medical and military sectors, offering a futuristic way of interacting with data.
+      </p>
+    </div>
+
+    <!-- Paper 2 -->
+    <div class="paper-card">
+      <h3 class="paper-title">Agri Connect – Plant Disease Detection</h3>
+      <p class="paper-event">Presented at Madras Institute of Technology, 2024</p>
+      <p class="paper-desc">
+        This research proposes an IoT-enabled system that detects plant diseases using image processing techniques and provides real-time alerts to farmers. The goal is to support smart agriculture and improve crop yield through early intervention.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+    
+    
+    <!-- Certifications Section -->
+<section class="certifications" id="certifications">
+  <div class="cert-heading text-center">
+    <h1 class="my-heading blue-text" style="font-family: Algerian;">My Certifications</h1>
+  </div>
+
+  <div class="cert-container">
+    <!-- Certification 1: AWS -->
+    <div class="cert-card">
+      <img src="aws.png" alt="AWS Logo" class="cert-img" title="Issued by Amazon Web Services">
+      <h3 class="cert-title">AWS Cloud Practitioner</h3>
+      <p class="cert-org">Amazon Web Services</p>
+      <a href="aws2.png" target="_blank" class="cert-link"><i class="fas fa-external-link-alt"></i> View Certificate</a>
+    </div>
+
+    <!-- Certification 2: Oracle -->
+    <div class="cert-card">
+      <img src="oracle2.png" alt="oracle Logo" class="cert-img" title="Issued by Oracle University">
+      <h3 class="cert-title">Oracle APEX Cloud Developer</h3>
+      <p class="cert-org">Oracle</p>
+      <a href="oracle.png" target="_blank" class="cert-link"><i class="fas fa-external-link-alt"></i> View Certificate</a>
+    </div>
+
+    <!-- Certification 3: NPTEL -->
+    <div class="cert-card">
+      <img src="nptel.jpg" alt="NPTEL Logo" class="cert-img" title="Issued by NPTEL Swayam">
+      <h3 class="cert-title">Privacy and Security in Online Social Media</h3>
+      <p class="cert-org">NPTEL</p>
+      <a href="pso.png" target="_blank" class="cert-link"><i class="fas fa-external-link-alt"></i> View Certificate</a>
+    </div>
+
+    <div class="cert-card">
+      <img src="nptel.jpg" alt="NPTEL Logo" class="cert-img" title="Issued by NPTEL Swayam">
+      <h3 class="cert-title">Human Computer Interaction</h3>
+      <p class="cert-org">NPTEL</p>
+      <a href="hci.png" target="_blank" class="cert-link"><i class="fas fa-external-link-alt"></i> View Certificate</a>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- Internship Section-->
+<section class="internships" id="internships">
+  <h1 class="section-title">My Internships</h1>
+  <br><br>
+  <div class="internship-container">
+
+    <!-- InternPE Internship -->
+    <div class="internship-card">
+      <h3 class="internship-role">Java Developer Intern</h3>
+      <p class="internship-company">InternPE | Sep 2024</p>
+      <p class="internship-desc">
+        Developed Java-based games (Guess the Number, Tic Tac Toe, Connect 4, Rock Paper Scissors). Strengthened object-oriented programming concepts.
+      </p>
+      <a href="https://github.com/vedhavithyaseenivasan/INTERNPE.git" class="btn-link" target="_blank">View GitHub</a>
+      <br><p>Below is the Completion Certificate: </p><div class="certificate-preview">
+        <img src="internpec.png" alt="InternPE Certificate">
+      </div>
+    </div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <!-- CodSoft Internship -->
+    <div class="internship-card">
+      <h3 class="internship-role">Web Developer Intern</h3>
+      <p class="internship-company">CodSoft | Aug–Sep 2024</p>
+      <p class="internship-desc">
+        Assigned with three tasks.<br>
+        Created a responsive portfolio, Landing Page, Simple Calculator. Implemented interactive UI/UX and mobile responsiveness using HTML, CSS, JavaScript.
+      </p>
+      <a href="https://github.com/vedhavithyaseenivasan/CODSOFT.git" class="btn-link" target="_blank">View GitHub</a>
+      <br><br><p>Below is the Completion Certificate: </p><br><br><div class="certificate-preview">
+        <img src="codsoftc.png" alt="CodSoft Certificate">
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- Achievement Section -->
+<section class="achievements-section" id="achieve">
+  <div class="section-heading"><br><br>
+    <h1 class="my-heading text-center" style="font-family: algerian; color: #00bcd4;">My Achievements</h1>
+  </div><br>
+
+  <div class="achievement-cards-container">
+    
+    <!-- Card 1 -->
+    <div class="achievement-card">
+      <div class="achievement-icon">
+        <img src="p6.png" alt="Award Icon">
+      </div>
+      <h3 class="achievement-title blue-text">Academic Excellence Award 2024</h3><br>
+      <p class="achievement-description">
+        <b>Awarded By:</b> Kongu Engineering College<br><br>
+        I was honored with the Academic Excellence Award 2024 for exceptional academic performance in the B.Tech Information Technology program at Kongu Engineering College.This award, presented by the prestigious Kongu Vellalar Trust, recognizes the outstanding academic performance.
+        This award highlights consistent high grades, dedication to coursework,
+        and contributions to academic projects throughout the year.
+      </p><br>
+      <a href="https://www.linkedin.com/posts/vedhavithya-s_academicexcellence-konguengineeringcollege-activity-7202312454469529600-SoD1?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD-e2agBDkmvS9I5dJ2wD8LY8jyd8X8_OvI" target="_blank" class="common-btn">View LinkedIn Post</a>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="achievement-card">
+      <div class="achievement-icon">
+        <img src="P5.jpg" alt="Hackathon Image">
+      </div>
+      <h3 class="achievement-title blue-text">DevForger'25 – 2nd Prize Winner (IoT Domain)</h3><br>
+      <p class="achievement-description">
+        <b>Event:</b> DevForger'25 – Intra-College Hackathon<br><br>
+        <b>Organized By:</b> IT Association, Kongu Engineering College<br><br>
+        Secured <b>2nd Prize</b> for building an <b>IoT-based Air Quality Monitoring System</b> that provides real-time pollution data through sensor integration and cloud connectivity. <br>
+        The project focused on environmental monitoring, alert generation, and data analysis using IoT technologies.
+      </p><br>
+      <a href="https://www.linkedin.com/posts/vedhavithya-s_devforge25-hackathon-iot-activity-7324789662919593985-eImo?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD-e2agBDkmvS9I5dJ2wD8LY8jyd8X8_OvI" target="_blank" class="common-btn">View LinkedIn Post</a>
+    </div>
+
+  </div>
+</section>
+
+
+
+    <!-- Contact me section -->
+    <section class="contact" id="contact">
+        <div class="contact-heading"><br><br><br>
+            <h1 class="my-heading text-center"style="font-family: algerian;">Contact Me</h1>
+        </div>
+            <div class="contact-details">
+                <h1 class="greet-heading"style="font-family: algerian;">My Contact Details</h1>
+                <div class="details"><h5 class="contact-heading"></h5>
+                    <i class="fas fa-envelope" style="color: #00bcd4; margin-right: 10px;"></i>
+                    MAILID</h5>
+                    <p class="contact-text">vedhavithya10@gmail.com</p>
+                </div>
+                <div class="details">
+                    <h5 class="contact-heading"><i class="fas fa-phone" style="color: #00bcd4; margin-right: 10px;"></i>PHONE</h5>
+                    <p class="contact-text">+91 8883946181</p>
+                </div>
+                <div class="details">
+                    <h5 class="contact-heading"><i class="fas fa-map-marker-alt" style="color: #00bcd4; margin-right: 10px;"></i>ADDRESS</h5>
+                    <p class="contact-text">Alli Street,Jeyaramnagar</p>
+                    <p>Arrupukottai,Virudhunagar</p>
+                    <p>TamilNadu</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    
+    <!-- Footer section -->
+    <footer class="footer">
+        <div class="footer-content text-center">
+            <h4>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright © 2025 All rights reserved 
+            </h4>
+            <div class="social-links">
+                <div class="footer-menu">
+                    <ul class="footer-menu-list">
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="https://github.com/vedhavithyaseenivasan">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="https://www.instagram.com/xo_vedhaxo?igsh=MWEzMjh0OGYyNXAwYw==">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="https://www.linkedin.com/in/vedhavithya-s/">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+        integrity=
+"sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+      </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
