@@ -11,7 +11,7 @@ Welcome to my **Portfolio Website** repository! This project showcases my skills
 - 🧩 Smooth Animations & Transitions
 - 📂 Projects Section with Grid Layout
 - 🙋‍♂️ About Me with Image and Details
-- 📞 Contact Section with Working Form (if applicable)
+- 📞 Contact Section 
 
 ---
 
